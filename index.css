@@ -225,6 +225,44 @@ button{
     justify-content: space-evenly;
     background-color: #10c66f;
 }
-.footer>div>p, .footer>div>h5{
+.footer>div>p, .footer>div>h3{
     color: white;
+}
+.footer>div>img{
+    margin-top: 12px;
+    width: 82px;
+    height: 82px;
+    padding: 20px;
+    border-radius: 57px;
+    margin-left: -10px;
+}
+.llogo{
+    margin-top: -5px;
+    display: flex;
+    gap: 10px
+    ;
+    align-items: center;
+}
+.llogo>img{
+    height: 22px;
+    width: 22px;
+}
+
+.secondlast{
+    margin-top: 30px;
+}
+.end{
+    margin-top: 70px;
+}
+.end>input{
+    padding: 7px 33px 7px 33px;
+}
+.end>div{
+    margin-top: 9px;
+    background-color: white;
+    padding: 1px ;
+}
+.end>div>p{
+    font-size: 12px;
+    text-align: center;
 }
