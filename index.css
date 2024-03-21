@@ -152,8 +152,18 @@ button{
     width: 70%;
     background-color: #eaeded;
     margin: auto;
+    margin-bottom: 60px;
 }
 .fifthdiv> div{
     display: flex;
     justify-content: space-around;
+}
+/*  */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #10c66f;
+}
+.footer>div>p, .footer>div>h5{
+    color: white;
 }
