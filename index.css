@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.firstdiv{
+    background-image: url("https://wallpaperaccess.com/full/1428200.jpg") ;
+    background-size: cover;
+    background-position: center;
+    height: 540px;
+    
+    
+}
+.nav{
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    
+}
+.nav>div{
+    display: flex;
+    gap: 40px
+    ;
+}
+.nav>div>p{
+    color: #10c66f;
+    
+}
+.logo{
+    width: 62px;
+    height: 62px;
+    border-radius: 35px;
+}
+.lownav{
+    width: 80%;
+    margin: auto;
+}
+button{
+    padding: 10px 12px 10px 12px;
+    background-color: #10c66f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+.lownav>p, .lownav>h1{
+    color: white;
+}
+.lownav>h1{
+    font-size: 52px;
+    font-family:'Times New Roman', Times, serif;
+}
+.lownav>p{
+    width: 48%;
+}
+/*  */
+
+.seconddiv{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.seconddiv>h2, .thirddiv>h1 , .fourthdiv>h2{
+    color: #10c66f;
+    font-size: 38px;
+    font-weight: lighter;
+}
+.cards{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+
+}
+.cards>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cards>div>img{
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+    height: 255px;
+}
+
+/*  */
+
+.thirddiv{
+    text-align: center;
+    align-items: center;
+    width: 68%;
+    margin: auto;
+}
+.thirddiv>p{
+    width: 80%;
+    margin: auto;
+}
+.round{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.round>div>img{
+    
+    height: 125px;
+    border-radius: 58px;
+}
+.special{
+    margin-top: -20px;
+    height: 245px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+/*  */
+
+.fourthdiv{
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.lastcard{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px
+    ;
+}
+.lastcard>div{
+    display: flex;
+}
+.lastcard>div>div{
+    height: 345px;
+    background-color: #eaeded;
+    text-align: left;
+   
+}
+.lastcard>div>div>img{
+    width: 70%;
+    height: 100%;
+}
