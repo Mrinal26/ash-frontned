@@ -8,6 +8,7 @@ body{
     background-size: cover;
     background-position: center;
     height: 540px;
+    margin-bottom: 70px;
     
     
 }
@@ -62,6 +63,7 @@ button{
     margin: auto;
     text-align: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 .seconddiv>h2, .thirddiv>h1 , .fourthdiv>h2{
     color: #10c66f;
@@ -92,6 +94,7 @@ button{
     align-items: center;
     width: 68%;
     margin: auto;
+    margin-bottom: 100px;
 }
 .thirddiv>p{
     width: 80%;
@@ -120,6 +123,7 @@ button{
     align-items: center;
     width: 90%;
     margin: auto;
+    margin-bottom: 100px;
 }
 .lastcard{
     width: 100%;
@@ -140,4 +144,16 @@ button{
 .lastcard>div>div>img{
     width: 70%;
     height: 100%;
+}
+
+/*  */
+.fifthdiv{
+    margin: auto;
+    width: 70%;
+    background-color: #eaeded;
+    margin: auto;
+}
+.fifthdiv> div{
+    display: flex;
+    justify-content: space-around;
 }
