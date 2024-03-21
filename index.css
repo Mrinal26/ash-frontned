@@ -65,6 +65,9 @@ button{
     align-items: center;
     margin-bottom: 100px;
 }
+.seconddiv>p{
+    line-height: 28px;
+}
 .seconddiv>h2, .thirddiv>h1 , .fourthdiv>h2{
     color: #10c66f;
     font-size: 38px;
@@ -74,8 +77,18 @@ button{
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
-    gap: 20px
+    gap: 20px;
+    text-align: left;
 
+    
+}
+.green{
+    color: #10c66f;
+}
+.cards>div>p{
+    margin-left: 25px;
+    font-size: 13px;
+    
 }
 .cards>div{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -99,6 +112,7 @@ button{
 .thirddiv>p{
     width: 80%;
     margin: auto;
+    line-height: 32px;
 }
 .round{
     margin-top: 80px;
@@ -123,10 +137,15 @@ button{
 .special>div{
     display: flex;
     justify-content: space-around;
+    width: 70%;
+    margin: auto;
 }
 .special>div>img{
-    width: 32px;
-    height: 32px;
+    width: 22px;
+    height: 22px;
+}
+.special>p{
+    font-size: 15px;
 }
 
 /*  */
@@ -138,25 +157,40 @@ button{
     margin: auto;
     margin-bottom: 100px;
 }
+.fourthdiv>p{
+    width: 70%;
+    margin: auto;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
 .lastcard{
-    width: 100%;
+    
     display: flex;
     justify-content: space-evenly;
-    gap: 20px
-    ;
+    gap: 10px;
+    
 }
 .lastcard>div{
     display: flex;
+    gap: 12px;
 }
-.lastcard>div>div{
-    height: 345px;
+.lastcard>div{
+    height: 245px;
     background-color: #eaeded;
     text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
    
 }
-.lastcard>div>div>img{
-    width: 70%;
+.lastcard>div>img{
+    width: 40%;
     height: 100%;
+}
+.lastcard>div>div>p{
+    font-size: 12px;
+}
+.lastcard>div>div>h4{
+    font-weight: bold;
+    font-size: 14px;
 }
 
 /*  */
@@ -166,10 +200,24 @@ button{
     background-color: #eaeded;
     margin: auto;
     margin-bottom: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .fifthdiv> div{
     display: flex;
     justify-content: space-around;
+    padding: 20px;
+}
+.fifthdiv>div>div>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fifthdiv>div>div>div>img{
+    width: 22px;
+    height: 22px;
+}
+.fifthdiv>div>div>div>p{
+    line-height: 0px;
+    margin-left: 8px;
 }
 /*  */
 .footer{
